@@ -1,0 +1,17 @@
+/* Penyesuaian kecil di luar utility Tailwind */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 8px;
+}
+
+.cropper-view-box,
+.cropper-face {
+  border-radius: 4px;
+}
+
+img {
+  -webkit-user-drag: none;
+}
