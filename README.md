@@ -1,25 +1,11 @@
-# PhotoGram — Aplikasi Berbagi Foto
+# PhotoGram V.1
+By Ahmad Riko Dyansyah
 
 Aplikasi web sederhana untuk upload, edit, dan berbagi foto, lengkap dengan
 **dashboard insight** untuk melihat statistik like, komentar, dan views.
 
 Dibangun dengan: **PHP (native, PDO)**, **MySQL**, **HTML**, **JavaScript (vanilla)**,
 dan **Tailwind CSS** (via CDN).
-
-## Fitur
-
-- Registrasi & login (password di-hash dengan `password_hash`)
-- Feed foto (like, komentar real-time via AJAX)
-- Upload foto dengan pilihan filter (grayscale, sepia, invert, cerah, kontras)
-- Edit foto: crop & rotate (Cropper.js) + ganti filter + edit caption
-- Hapus foto
-- Halaman profil dengan tampilan grid foto
-- **Dashboard Insight**:
-  - Total foto, like, komentar, views, dan engagement rate
-  - Grafik views 14 hari terakhir (line chart)
-  - Perbandingan like vs komentar untuk 5 foto teratas (bar chart)
-  - Tabel detail statistik semua foto
-  - Tracking views otomatis saat foto tampil di layar (Intersection Observer)
 
 ## Instalasi (di XAMPP / Laragon)
 
