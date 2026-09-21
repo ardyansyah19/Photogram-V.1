@@ -44,12 +44,3 @@ photogram/
 ├── profile.php         # Halaman profil
 └── dashboard.php       # Dashboard insight/analytics
 ```
-
-## Catatan Keamanan & Pengembangan Lanjutan
-
-- Ini adalah versi dasar/MVP — cocok untuk belajar atau prototipe.
-- Untuk produksi, sebaiknya tambahkan: CSRF token pada form, rate limiting,
-  validasi file upload lebih ketat (cek isi file, bukan hanya MIME),
-  dan resize otomatis gambar besar agar hemat storage.
-- Desain tampilan terinspirasi dari gaya umum aplikasi berbagi foto,
-  bukan menyalin aset atau logo dari aplikasi manapun.
