@@ -1,12 +1,6 @@
 # PhotoGram V.1
 By Ahmad Riko Dyansyah
 
-Aplikasi web sederhana untuk upload, edit, dan berbagi foto, lengkap dengan
-**dashboard insight** untuk melihat statistik like, komentar, dan views.
-
-Dibangun dengan: **PHP (native, PDO)**, **MySQL**, **HTML**, **JavaScript (vanilla)**,
-dan **Tailwind CSS** (via CDN).
-
 ## Instalasi (di XAMPP / Laragon)
 
 1. Ekstrak folder `photogram` ke dalam folder `htdocs` (XAMPP) atau `www` (Laragon).
