@@ -12,6 +12,21 @@
   border-radius: 4px;
 }
 
+.cropper-view-box,
+.cropper-face {
+  border-radius: 4px;
+}
+
+.cropper-view-box,
+.cropper-face {
+  border-radius: 4px;
+}
+
+.cropper-view-box,
+.cropper-face {
+  border-radius: 4px;
+}
+
 img {
   -webkit-user-drag: none;
 }
