@@ -67,6 +67,24 @@ CREATE INDEX idx_comments_photo ON comments(photo_id);
 CREATE INDEX idx_views_photo ON photo_views(photo_id);
 CREATE INDEX idx_views_date ON photo_views(viewed_at);
 
+CREATE INDEX idx_photos_user ON photos(user_id);
+CREATE INDEX idx_likes_photo ON likes(photo_id);
+CREATE INDEX idx_comments_photo ON comments(photo_id);
+CREATE INDEX idx_views_photo ON photo_views(photo_id);
+CREATE INDEX idx_views_date ON photo_views(viewed_at);
+
+CREATE INDEX idx_photos_user ON photos(user_id);
+CREATE INDEX idx_likes_photo ON likes(photo_id);
+CREATE INDEX idx_comments_photo ON comments(photo_id);
+CREATE INDEX idx_views_photo ON photo_views(photo_id);
+CREATE INDEX idx_views_date ON photo_views(viewed_at);
+
+CREATE INDEX idx_photos_user ON photos(user_id);
+CREATE INDEX idx_likes_photo ON likes(photo_id);
+CREATE INDEX idx_comments_photo ON comments(photo_id);
+CREATE INDEX idx_views_photo ON photo_views(photo_id);
+CREATE INDEX idx_views_date ON photo_views(viewed_at);
+
 -- User contoh (password: password123)
 INSERT INTO users (username, email, password, full_name, bio) VALUES
 ('demo', 'demo@example.com', '$2y$10$92IXUNpkjO0rOQ5byMi.YeIeVCmv/eeZ.g.4/8ArE1qP0kJ.PSy1e', 'Demo User', 'Akun demo untuk mencoba aplikasi');
